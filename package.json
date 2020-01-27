@@ -1,6 +1,6 @@
 {
   "name": "bluetooth-rpc-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The server side of a library allowing Remove Procedure Call (RPC) from a web application to a Node.js server on a Bluetooth-enabled device.",
   "main": "index.js",
   "scripts": {
