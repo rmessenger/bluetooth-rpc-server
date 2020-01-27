@@ -1,14 +1,14 @@
 {
-  "name": "bluetooth-rpc",
+  "name": "bluetooth-rpc-server",
   "version": "1.0.0",
-  "description": "A library allowing Remove Procedure Call (RPC) from a web application to a Node.js server on a Bluetooth-enabled device.",
+  "description": "The server-side of a library allowing Remove Procedure Call (RPC) from a web application to a Node.js server on a Bluetooth-enabled device.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmessenger/bluetooth-rpc.git"
+    "url": "git+https://github.com/rmessenger/bluetooth-rpc-server.git"
   },
   "keywords": [
     "BLE",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/rmessenger/bluetooth-rpc/issues"
   },
-  "homepage": "https://github.com/rmessenger/bluetooth-rpc#readme"
+  "homepage": "https://github.com/rmessenger/bluetooth-rpc#readme",
+  "dependencies": {
+    "bleno": "^0.5.0",
+    "msgpack-lite": "^0.1.26",
+    "murmurhash": "0.0.2"
+  }
 }
